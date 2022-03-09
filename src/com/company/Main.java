@@ -8,8 +8,8 @@ public class Main {
 
     static void dirCreate(String dir, StringBuilder stringBuilder) {
 
-        File dir1 = new File(dir);
-        if (dir1.mkdir())
+        File myDir = new File(dir);
+        if (myDir.mkdir())
             stringBuilder.append(dir + " - директория создана успешно" + "\n");
 
     }
